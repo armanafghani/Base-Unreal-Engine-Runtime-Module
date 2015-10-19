@@ -1,7 +1,7 @@
 ##How to use this module in Unreal Engine 
 
-1.  Add this entire directory (should be called GENERIC_MODULE) to your project's Source directory (should be Project_Name/Source).
-	- if you can't find the Source directory, it could be that you did not generate this project as a C++ Unreal project. If you can, generate a new project and, in Unreal's create new project page, switch to the C++ tab. Then create your project normally. 
+1.  Clone the repository to your local machine, rename the root directory to GENERIC_MODULE, and copy it to your project's Source directory (should be Project_Name/Source).
+	- if you can't find your Unreal project's Source directory, it could be that you did not generate this project as a C++ Unreal project. If you can, generate a new project and, in Unreal's create new project page, switch to the C++ tab. Then create your project normally. 
 
 2.  Open up your GENERIC_MODULE.Build.cs file within this directory and follow the todo list steps at the top of the file
 
